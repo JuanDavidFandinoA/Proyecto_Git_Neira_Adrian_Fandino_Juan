@@ -19,10 +19,13 @@ def menu_principal():
           5. Salir''')
     
 def pedir():
-    opcion1 = int(input("Opción:"))
-    if opcion1 != int("1"):
-        print("Error. Se ha introducido una opción no valida. Intente nuevamente.")
+    opc = 0
+    try:
+        opc = int(input("Ingrese su opción: "))
+        print("***************************************")
+        return opc
+    except Exception:
+        print("Valor inválido")
+        print("***************************************")
+        return -1
 
-
-menu_principal()
-pedir()
