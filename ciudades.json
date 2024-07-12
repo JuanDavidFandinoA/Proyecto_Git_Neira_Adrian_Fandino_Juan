@@ -1,0 +1,33 @@
+
+{
+    "ventas": [
+       {
+        "id":"1",
+        "Nombre": "Bucaramanga",
+        "Pais": "Colombia",
+        "poblacion":500000,
+        "codigo_postal": "15001"
+       },
+       {
+        "id":"2",
+        "Nombre": "Medellín",
+        "Pais": "Colombia",
+        "poblacion":300000,
+        "codigo_postal": "15002"
+       },
+       {
+        "id":"3",
+        "Nombre": "Bogotá",
+        "Pais": "Colombia",
+        "poblacion":800000,
+        "codigo_postal": "15003"
+       },
+       {
+        "id":"4",
+        "Nombre": "Cartagena",
+        "Pais": "Colombia",
+        "poblacion":100000,
+        "codigo_postal": "15004"
+       }
+    ]
+}
